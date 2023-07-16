@@ -1,10 +1,12 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import rateLimiterMiddleware from '@/rateLimitedMiddleware';
+import validateEmail from '@/utils/validateEmail';
+import validatePassword from '@/utils/validatePassword';
 
 const rateLimiter = {};
 
 const handler = (req: NextApiRequest, res: NextApiResponse) => {
-  const { email } = req.body;
+  const { email, password } = req.body;
 
   //Check rate limit
   const rateLimitOk = rateLimiterMiddleware(req, res, rateLimiter);
