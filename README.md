@@ -4,7 +4,7 @@
   <img width="200" src="/public/icon.png">
 </p>
 
-You don't have to worry about form validation anymore, and write boilerplate code 😩. This API handles validation out-of-the-box 📦! It's as simple as that.
+You don't have to worry about form validation anymore, and write boilerplate code 😩. This REST API handles validation out-of-the-box 📦! It's as simple as that.
 
 ---
 
