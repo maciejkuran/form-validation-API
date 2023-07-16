@@ -1,4 +1,4 @@
-# Form Validation API ⚡
+# Forms Validation API ⚡
 
 <p align="center">
   <img width="200" src="/public/icon.png">
@@ -6,7 +6,13 @@
 
 You don't have to worry about form validation anymore, and write boilerplate code 😩. This API handles validation out-of-the-box 📦! It's as simple as that.
 
-🔗 API URL: `https://form-validation-api.vercel.app/api`
+---
+
+🔗 API URL: `https://forms-validation-api.vercel.app/api`
+
+🔗 Documentation: `https://forms-validation-api.vercel.app`
+
+---
 
 ## API Endpoints
 
