@@ -41,9 +41,9 @@ We check whether the email address:
 - is not empty,
 - doesn't contain special characters such as `!#$%^&\*(),?\":{}|<>~^+/=`,
 - has no spaces,
-- contains the @ symbol,
-- does not have an additional @ in the username portion,
-- does not contain offensive, vulgar, or inappropriate content (example words will not be mentioned for ethical reasons).
+- contains the `@` symbol,
+- does not have an additional `@` in the username portion,
+- does not contain offensive, vulgar, or inappropriate content (example words will not be mentioned here for ethical reasons).
 
 ### Sign In Form Validation
 
@@ -76,7 +76,7 @@ const url = 'https://form-validation-api.vercel.app/api';
 
   const validatePassword = async (password: string) => {
     try {
-      const res = await fetch(`${url}/password`, reqConfig('POST', { password: password }));
+      const res = await fetch(`${url}/password`, reqConfig('POST', { password }));
       const validationResult = await res.json();
 
       if (!res.ok) throw new Error(validationResult.error); // if 400 code, 'error' key is available on the response object
@@ -98,6 +98,6 @@ The number of permitted requests per user, per minute for each API route is set 
 
 ## Contribution
 
-Hey there, awesome folks! 👋 We're on a mission to make magic happen, and we need your collaboration superpowers! Let's team up, share ideas, and pool our talents to create something useful 🚀💫. Feel free to `fork` repo and `pull requests` or submit your request via `issues`.
+Hey there, awesome folks! 👋 I am on a mission to make magic happen, and I may need your collaboration superpowers! Let's team up, share ideas, and pool our talents to create something useful 🚀💫. Feel free to `fork` repo and `pull requests` or submit your request via `issues`.
 
 #CollaborationNation
