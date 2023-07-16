@@ -1,0 +1,26 @@
+$grey1: rgb(247, 247, 247);
+$grey2: rgb(239, 239, 239);
+$grey3: rgb(193, 193, 193);
+$grey4: rgb(142, 142, 142);
+$grey5: rgb(55, 55, 55);
+$black: black;
+$white: white;
+$green: rgb(0, 255, 179);
+
+$gradient1: linear-gradient(90.19deg, #ebfffa 0.17%, #fff7ff 103.52%);
+$gradient2: linear-gradient(120.75deg, #fdedfa -7.75%, #eafffa 119.75%);
+$gradient3: linear-gradient(90.19deg, #eff0ff 0.17%, #daffef 103.52%);
+$gradient4: linear-gradient(90.19deg, #ebfffa 0.17%, #fff7ff 103.52%);
+$gradient5: linear-gradient(90.19deg, #edeeff 0.17%, #d1ffec 103.52%);
+$gradient6: linear-gradient(92.01deg, #f3fff5 -3.64%, #e2fff6 113.96%, #dfdfdf 113.96%);
+$gradient7: linear-gradient(97.86deg, #f9f9f9 0%, #fafafa 105.64%);
+
+$box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+$border-radius: 15px;
+
+@mixin flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
