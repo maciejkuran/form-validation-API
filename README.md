@@ -73,7 +73,7 @@ const url = 'https://form-validation-api.vercel.app/api';
   const reqConfig = (method: string, body: {}): {} => {
     return {
       method: 'POST',
-      body: body,
+      body: JSON.stringify(body),
       headers: {
         'Content-Type': 'application/json',
       },
