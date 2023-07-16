@@ -1,0 +1,55 @@
+@import '../../styles/variables.scss';
+
+.header {
+  background-color: $white;
+  max-width: 35rem;
+  width: 100%;
+  box-shadow: $box-shadow;
+  height: 100vh;
+  overflow: auto;
+  padding: 3rem 1rem;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  @include flex(column, center, center);
+
+  h5 {
+    text-align: center;
+  }
+}
+
+.nav {
+  margin-left: 2rem;
+  margin-top: 5rem;
+  @include flex(column, flex-start, flex-start);
+  row-gap: 2rem;
+
+  ul {
+    width: 100%;
+  }
+
+  li {
+    max-width: 100%;
+    padding: 0.8rem;
+    &:hover {
+      background-color: $grey1;
+    }
+
+    a {
+      font-weight: 600;
+    }
+  }
+}
+
+.list--merged-items {
+  border-left: 3px solid $grey2;
+}
+
+.list__item--small {
+  a {
+    font-size: 1.6rem;
+    font-weight: 500 !important;
+  }
+}
