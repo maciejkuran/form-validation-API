@@ -10,7 +10,7 @@ You don't have to worry about form validation anymore, and write boilerplate cod
 
 🔗 API URL: `https://forms-validation-api.vercel.app/api`
 
-🔗 Documentation: `https://forms-validation-api.vercel.app`
+[🔗 Documentation](https://forms-validation-api.vercel.app)
 
 ---
 
