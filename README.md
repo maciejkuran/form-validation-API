@@ -13,12 +13,12 @@ You don't have to worry about form validation anymore, and write boilerplate cod
 There are 4 endpoints to choose from.
 You can expect a response with a status code of `400` (if validation failed), and `200` if succeded. More in the examples section.
 
-| Description                                    | Endpoint       |
-| ---------------------------------------------- | -------------- |
-| Validate password                              | /password      |
-| Validate email address                         | /email-address |
-| Sign In Form (email, password)                 | /sign-in-form  |
-| Sign Up Form (email, password, password match) | /sign-up-form  |
+| Description            | Method   | Expected req.body                                              | Endpoint      |
+| ---------------------- | -------- | -------------------------------------------------------------- | ------------- |
+| Validate password      | \`POST\` | `{password: $value}`                                           | \`/password\` |
+| Validate email address | \`POST\` | \`{email: $value}\`                                            | \`/email\`    |
+| Sign In Form           | \`POST\` | \`{email: $value, password: $value}\`                          | \`/sign-in\`  |
+| Sign Up Form           | \`POST\` | \`{email: $value, password: $value, confirmPassword: $value}\` | \`/sign-up\`  |
 
 ### Validating Only Password 🔑
 
@@ -34,7 +34,7 @@ We check whether the password:
 
 ### Validating Only Email Address 📧
 
-👉 Endpoint: `/email-address`
+👉 Endpoint: `/email`
 
 We check whether the email address:
 
