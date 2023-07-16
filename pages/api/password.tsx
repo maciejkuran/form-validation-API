@@ -20,7 +20,8 @@ const handler = (req: NextApiRequest, res: NextApiResponse) => {
 
   if (!correctPassword) return;
 
-  return res.status(200).json({ success: 'Correct password.' });
+  //Success
+  return res.status(200).json({ success: 'Success.' });
 };
 
 export default handler;
