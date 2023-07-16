@@ -18,8 +18,15 @@ const handler = (req: NextApiRequest, res: NextApiResponse) => {
   }
 
   //Validate email address
+  const correctEmail = validateEmail(email, res);
+  if (!correctEmail) return;
 
   //Validate password
+  const correctPassword = validatePassword(password, res);
+  if (!correctPassword) return;
+
+  //Success
+  return res.status(200).json({ success: 'Success.' });
 };
 
 export default handler;
