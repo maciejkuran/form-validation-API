@@ -20,8 +20,8 @@ const handler = (req: NextApiRequest, res: NextApiResponse) => {
 
   if (!correctEmail) return;
 
-  // Email is valid
-  return res.status(200).json({ message: 'Email is valid.' });
+  // Success
+  return res.status(200).json({ message: 'Success' });
 };
 
 export default handler;
