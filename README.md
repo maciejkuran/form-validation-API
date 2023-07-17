@@ -8,7 +8,9 @@ You don't have to worry about form validation anymore, and write boilerplate cod
 
 ---
 
-🔗 API URL: `https://forms-validation-api.vercel.app/api`
+**Current version: 1.0**
+
+🔗 API Base URL: `https://forms-validation-api.vercel.app/api/v1.0`
 
 [🔗 Documentation](https://forms-validation-api.vercel.app)
 
