@@ -8,11 +8,19 @@ You don't have to worry about form validation anymore, and write boilerplate cod
 
 ---
 
-🔗 API URL: `https://forms-validation-api.vercel.app/api`
+**Current version: 1.0**
+
+🔗 API URL: `https://forms-validation-api.vercel.app/api/v1.0`
 
 [🔗 Documentation](https://forms-validation-api.vercel.app)
 
 ---
+
+## Contribution
+
+Hey there, awesome folks! 👋 I am on a mission to make magic happen, and I may need your collaboration superpowers! Let's team up, share ideas, and pool our talents to create something useful 🚀💫. Feel free to `fork` repo and `pull requests` or submit your request via `issues`.
+
+#CollaborationNation
 
 ## API Endpoints
 
@@ -101,9 +109,3 @@ const url = 'https://form-validation-api.vercel.app/api';
 Rate limiting is a strategy employed to restrict network traffic and prevent potential abuse of APIs. Each API route is equipped with its own `rateLimiter` variable, which records the `timestamps` of user requests. That, in essence, summarizes the concept.
 
 The number of permitted requests per user, per minute for each API route is set at `10`.
-
-## Contribution
-
-Hey there, awesome folks! 👋 I am on a mission to make magic happen, and I may need your collaboration superpowers! Let's team up, share ideas, and pool our talents to create something useful 🚀💫. Feel free to `fork` repo and `pull requests` or submit your request via `issues`.
-
-#CollaborationNation
