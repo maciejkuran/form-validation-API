@@ -9,6 +9,10 @@ const Introduction = (): ReactNode => {
         You don&lsquo;t have to worry about form validation anymore, and write boilerplate code 😩.
         This API handles validation out-of-the-box 📦! It&lsquo;s as simple as that.
       </p>
+      <p>
+        🔗 API BASE URL:{' '}
+        <code className="code">https://forms-validation-api.vercel.app/api/v1.0</code>
+      </p>
     </section>
   );
 };
