@@ -110,6 +110,12 @@ legend {
   background-color: transparent;
 }
 
+.code {
+  padding: 0.5rem;
+  background-color: $grey2;
+  font-size: 1.6rem;
+}
+
 @media (max-width: 785px) {
   h1 {
     font-size: 2.9rem;
