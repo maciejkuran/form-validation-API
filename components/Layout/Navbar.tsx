@@ -16,7 +16,7 @@ const Navbar = (): ReactNode => {
       <nav className={classes.nav}>
         <ul>
           <li>
-            <Link href="/#introduction">👋 Introduction</Link>
+            <Link href="/#introduction">Introduction</Link>
           </li>
         </ul>
 
@@ -40,13 +40,13 @@ const Navbar = (): ReactNode => {
 
         <ul>
           <li>
-            <Link href="/#example">⌨ Example</Link>
+            <Link href="/#example">Example</Link>
           </li>
         </ul>
 
         <ul>
           <li>
-            <Link href="/#rate-limit">⏱ Rate Limit</Link>
+            <Link href="/#rate-limit">Rate Limit</Link>
           </li>
         </ul>
 
