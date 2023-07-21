@@ -76,7 +76,7 @@ We check whether the email address:
 In the example provided below, I am validating the user's password. The same analogy applies to each available form of validation.
 
 ```
-const url = 'https://form-validation-api.vercel.app/api';
+const url = 'https://forms-validation-api.vercel.app/api/v1.0';
 
   const reqConfig = (method: string, body: {}): {} => {
     return {
