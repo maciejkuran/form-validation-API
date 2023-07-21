@@ -5,7 +5,10 @@
     margin-top: 3rem;
     border-left: 2px solid $grey2;
     padding-left: 1rem;
-    max-width: 80rem;
     font-weight: 500;
+  }
+
+  &__version {
+    font-style: italic;
   }
 }
